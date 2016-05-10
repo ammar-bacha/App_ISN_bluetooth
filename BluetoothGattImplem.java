@@ -1,5 +1,5 @@
 package org.myapp;
-
+##on importe les fonctions du bluetooth liées à Android :
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCallback;
 import android.bluetooth.BluetoothGattCharacteristic;
