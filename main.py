@@ -112,7 +112,7 @@ def try_connect(name):
 class BluetoothApp(App):
     def build(self):
         #On cree une disposition pour l'affichage:
-        Layout=BoxLayout(orientation='vertical',spacing=20,padding=(400,20))
+        Layout=BoxLayout(orientation='vertical',spacing=20,padding=(200,20))
         self.BoutonConnect=Button(text='Se connecter')
         self.BoutonConnect.bind(on_press=self.connect)
         #On ajoute le bouton dans l'affichage:
