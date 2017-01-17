@@ -4,4 +4,4 @@ Cahier des charges de l'application :
 
 -enregistrer un mot de passe 
 
--envoyer le mot de passe enregistré ou entré par l'utilisateur en Bluetooth a l'arduino   
+-envoyer le mot de passe enregistré ou entré par l'utilisateur en Bluetooth  à l'arduino   
