@@ -135,14 +135,14 @@ class BluetoothApp(App):
         except:
             pass
         instance.background_color=[0,0,1,1]
-        instance.text="Attente d'une  connexion"
+        instance.text="En attente d'une  connexion"
         self.gatt, self.charac = try_connect('HC-05')
         if self.charac!=None:
             instance.background_color=[0,1,0,1]
             instance.text="Connecté"
         else:
             instance.background_color=[0,1,1,1]
-            instance.text="échec de connexion : Nouvel essai"
+            instance.text="Echec de connexion : Nouvel essai"
 
     def send(self, cmd):
         global etatconnexion
