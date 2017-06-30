@@ -13,7 +13,7 @@ kivy.require('1.8.0')
 from jnius import PythonJavaClass, java_method ## on importe la bibliothèque Python pour accéder à des classes Java
 from jnius import autoclass
 from jnius import cast
-from kivy.lang import Builder
+from kivy.lang import Builder ##framework Kivy
 from kivy.app import App
 from kivy.logger import Logger
 from kivy.uix.button import Button
